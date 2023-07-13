@@ -89,6 +89,10 @@ body {
   gap: 40px;
 }
 
+.header-list-item {
+  width: calc((100% - 40*2) / 3);
+}
+
 .header-logo {
   color: var(--item-color);
   font-size: 18px;
@@ -112,7 +116,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding: 24px 0;
   display: block;
 }
 
@@ -245,6 +248,10 @@ body {
   gap: 24px;
 }
 
+.content-list-img {
+  width: calc(100% - 24px*2) / 3;
+}
+
 .our-team {
   background-color: var(--background-color);
   padding-top: 120px;
@@ -259,6 +266,7 @@ body {
 .list-team-info {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 24px*3) / 4);
 }
 
 .team-list-item {
@@ -290,7 +298,6 @@ body {
 
 .header-logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
