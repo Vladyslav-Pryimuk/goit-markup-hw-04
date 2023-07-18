@@ -113,6 +113,21 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  position: relative;
+}
+
+.current::after {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--target-color);
+}
+
 .header-list-link {
   color: var(--accent-color);
   font-size: 16px;
@@ -120,6 +135,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: block;
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-link:hover,
@@ -144,6 +161,8 @@ body {
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-socials-link:hover,
@@ -198,6 +217,8 @@ body {
   margin: 0 auto;
   border: none;
   min-width: 169px;
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -251,7 +272,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-/*----------Team---------*/
+/*----------Content---------*/
 
 .content-item {
   padding-bottom: 120px;
@@ -276,6 +297,8 @@ body {
 .content-list-img {
   width: calc(100% - 24px * 2) / 3;
 }
+
+/* -----TEAM----- */
 
 .our-team {
   background-color: var(--background-color);
@@ -315,6 +338,8 @@ body {
   padding: 32px 16px;
 }
 
+/* -----FOOTER----- */
+
 .footer {
   background-color: var(--accent-color);
   padding-top: 100px;
@@ -350,6 +375,11 @@ body {
   padding-bottom: 120px;
 }
 
+.header-list-item {
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .head-list-item:hover,
 .head-list-item:focus {
   color: var(--item-color);
@@ -362,6 +392,12 @@ body {
   background-color: var(--background-color);
   cursor: pointer;
 }
+
+.head-item {
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .head-item:hover,
 .head-item:focus {
   color: #4d5ae5;
@@ -398,6 +434,8 @@ body {
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
   border-radius: 4px;
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-link:hover,
