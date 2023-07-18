@@ -306,6 +306,42 @@ body {
   padding-bottom: 120px;
 }
 
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-item {
+  width: 40px;
+  height: 40px;
+}
+
+.our-team-link:hover,
+.our-team-link:focus {
+  background-color: var(--target-color);
+}
+
+.our-team-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--item-color);
+  border-radius: 50%;
+  transition: color 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.our-team-block {
+  padding-bottom: 32px;
+  align-items: center;
+}
+
+.our-team-icon {
+  fill: var(--background-color);
+}
+
 .team {
   gap: 24px;
   display: flex;
@@ -332,10 +368,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .list-team {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
 }
 
 /* -----FOOTER----- */
