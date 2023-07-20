@@ -377,7 +377,6 @@ body {
 }
 
 .list-team {
-  display: flex;
   padding: 32px 0;
   padding-right: 16px;
   padding-left: 16px;
