@@ -319,7 +319,7 @@ body {
   padding-bottom: 120px;
 }
 
-.our-team-list {
+.team {
   display: flex;
   gap: 24px;
 }
@@ -350,11 +350,6 @@ body {
   fill: var(--background-color);
 }
 
-.team {
-  gap: 24px;
-  display: flex;
-}
-
 .list-team-info {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -383,10 +378,17 @@ body {
 }
 
 .list-team {
+  display: flex;
   padding: 32px 0;
   padding-right: 16px;
   padding-left: 16px;
   align-items: center;
+  justify-content: center;
+}
+
+.team-list-icons {
+  display: flex;
+  gap: 24px;
 }
 
 /* -----Customers----- */
