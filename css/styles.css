@@ -132,7 +132,7 @@ body {
 }
 
 .header-list-link {
-  color: var(--accent-color);
+  color: var(--target-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -197,8 +197,7 @@ body {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office\ 1.jpg);
+    ), url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
