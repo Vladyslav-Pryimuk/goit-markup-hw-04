@@ -5,6 +5,7 @@
   --background-color: #f4f4fd;
   --address-color: #434455;
   --target-color: #404bbf;
+  --border-color: #8e8f99;
 }
 
 p,
@@ -398,6 +399,7 @@ body {
 }
 
 .customers-logo {
+  color: var(--accent-color);
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -405,6 +407,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .customers-container {
@@ -415,7 +418,6 @@ body {
 }
 
 .customers-list {
-  margin-top: 72px;
   display: flex;
   gap: 24px;
   width: calc(100% - 24px * 5) / 6;
@@ -433,7 +435,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--border-color);
   transition: border-color 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -452,7 +454,7 @@ body {
 }
 
 .customers-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 /* -----FOOTER----- */
@@ -492,7 +494,7 @@ body {
 
 .social-media-link:hover,
 .social-media-link:focus {
-  background-color: var(--target-color);
+  background-color: #31d0aa;
 }
 
 .social-media-item {
@@ -500,7 +502,7 @@ body {
   height: 40px;
 }
 .social-media-icon {
-  fill: var(--hero-color);
+  fill: var(--background-color);
 }
 
 .header-logo {
@@ -528,12 +530,11 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .footer-main-container {
   display: block;
-  padding-right: 120px;
+  margin-right: 120px;
 }
 
 /*----------Portfolio---------*/
