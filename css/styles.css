@@ -559,7 +559,7 @@ body {
 }
 
 .portfolio-cover:hover .portfolio-cover-text {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-cover-text {
