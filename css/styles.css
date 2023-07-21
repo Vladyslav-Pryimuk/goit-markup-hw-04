@@ -558,7 +558,11 @@ body {
   overflow: hidden;
 }
 
-.portfolio-cover:is(:hover, :focus), .portfolio-cover-text {
+.portfolio-cover:hover .portfolio-cover-text {
+  transform: translateY(0%);
+}
+
+.portfolio-cover:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 
@@ -609,7 +613,6 @@ body {
 }
 
 .projects-item {
-  display: block;
   background-color: #fff;
   width: calc((100% - 48px) / 3);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
