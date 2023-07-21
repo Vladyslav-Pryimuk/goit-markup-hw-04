@@ -562,10 +562,6 @@ body {
   transform: translateY(0%);
 }
 
-.projects-link:focus .portfolio-cover-text {
-  transform: translateY(0%);
-}
-
 .portfolio-cover-text {
   color: var(--background-color);
   top: 0;
@@ -653,6 +649,10 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.projects-link:focus .portfolio-cover-text {
+  transform: translateY(0%);
+}
+
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -721,7 +721,6 @@ body {
 .modal-close-btn:is(:hover, :focus) {
   background-color: var(--target-color);
   border: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-hidden {
