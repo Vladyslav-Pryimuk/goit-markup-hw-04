@@ -562,7 +562,8 @@ body {
   transform: translateY(0%);
 }
 
-.portfolio-cover:focus .portfolio-cover-text {
+.portfolio-cover-text:hover,
+.portfolio-cover-text:focus {
   transform: translateY(0%);
 }
 
@@ -690,7 +691,6 @@ body {
 
 .modal-close-btn {
   background-color: #e7e9fc;
-  border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   border: none;
   padding: 0;
@@ -720,6 +720,7 @@ body {
 
 .modal-close-btn:is(:hover, :focus) {
   background-color: var(--target-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .is-hidden {
